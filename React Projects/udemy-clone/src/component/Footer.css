@@ -1,0 +1,35 @@
+.footer{
+    background-color: #1c1d1f;
+    color: #fff;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer_logo{
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer_image{
+    height: 100%;
+    width: 100%;
+}
+
+.copyRight{
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: 700;
+
+
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+.mainBox{
+
+    height: 120px;
+    border-radius: 10px;
+    width: 700px;
+    background-color: #ffff;
+    border: 1px solid rgb(231, 231, 231);
+    box-shadow: -4px 8px 6px 2px rgba(222,215,215,0.75);
+    -webkit-box-shadow: -4px 8px 6px 2px rgba(222,215,215,0.75);
+    -moz-box-shadow: -4px 8px 6px 2px rgba(222,215,215,0.75);
+
+}
+
+.input__container{
+    /* display: flex; */
+    height: 50px;
+    border-radius: 30px;
+    /* background-color: blue; */
+
+   
+}
+
+.input__container > form > input{
+    height: 50px;
+    border: none;
+    width: 85%;
+    padding-left: 30px;
+    margin-left: 2%;
+    outline: none;
+}
+.input__container > form > button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+   
+}
+.input__container > form > button:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.iconList{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+.iconList div{
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    /* font-size: consolas; */
+    font-family: 'Open Sans Condensed', sans-serif;
+    cursor: pointer;
+}
+.iconList div:hover{
+    background-color: rgb(230, 230, 230);
+}
+.sendIcon{
+    color: rgb(80, 80, 80);
+    margin-top:5px;
+   
+}
+.photosIcon{
+    color: #70b5f9;
+}
+.videosIcon{
+    color: #7fc159;
+}
+.EventIcon{
+    color: #fc9295;
+}

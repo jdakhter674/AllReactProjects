@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body {
+   
+    /* width: 100%; */
+    min-height: 100vh;
+    background-color: rgb(255, 254, 254);
+}
+
+.cont{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    height: 400px;
+    width: 450px;
+    box-shadow: -4px 8px 6px 2px rgba(222,215,215,0.75);
+-webkit-box-shadow: -4px 8px 6px 2px rgba(222,215,215,0.75);
+-moz-box-shadow: -4px 8px 6px 2px rgba(222,215,215,0.75);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20vh;
+    margin-left: 200px;
+    font-weight: bold;
+}
+
+.Sign{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(70, 70, 251);
+    text-transform: uppercase;
+    font-weight: bold;
+    /* position: absolute;
+    top: 0;
+    left: 10; */
+}
+
+.lockSign {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(70, 70, 251);
+    border-radius: 50%;
+    /* margin: auto; */
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 10;
+}
+
+.lockIconSign {
+    color: white;
+    padding: 5px;
+}
+.lockIconSign:hover{
+    font-size: 30px;
+
+}
+
+.textFeild1 {
+    width: 100%;
+    border-color: rgb(70, 70, 251);
+    margin-bottom: 10px;
+    border-spacing: 10px;
+}
+.textFeild1:focus{
+    border-color: rgb(70, 70, 251);
+    color: rgb(70, 70, 251);
+}
+
+.loginBtn {
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: rgb(70, 70, 251);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.loginBtn:hover {
+    background-color: rgb(118, 118, 255);
+    /* background-color: rgb(29, 29, 243); */
+}
+
+h4{
+    color: rgb(70, 70, 251);
+    /* text-decoration: none; */
+    margin-top: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+a{
+    font-size: 15px;
+    color: rgb(70, 70, 251);
+    text-decoration: none;
+}
+
+@media(max-width:650px){
+    .cont{
+        width: 300px;
+       
+        height: 400px;
+        
+        margin:30px;
+    }
+}

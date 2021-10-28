@@ -1,0 +1,24 @@
+.main_feed{
+    /* margin-top: auto; */
+/* height: 70vh; */
+margin-top: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 100px;
+}
+.main_post{
+  
+    width: 600px;
+    margin: auto;
+}
+
+@media(max-width:600px){
+    .main_post{
+        width: 300px;
+        /* width: 100%; */
+        margin: auto;
+        /* margin:10px; */
+    }
+}
+

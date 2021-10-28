@@ -1,0 +1,8 @@
+.cardStyle{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding-top: 30px;
+   /* color: rgb(190, 190, 0); */
+   /* cursor: pointer; */
+}

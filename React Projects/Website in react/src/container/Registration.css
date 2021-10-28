@@ -1,0 +1,84 @@
+body{
+   
+    /* min-height: 100vh; */
+}
+
+.container{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 450px;
+    /* padding: 10px; */
+    border-radius: 20px;
+    position: relative;
+    box-shadow: -4px 8px 6px 2px rgba(222,215,215,0.75);
+    -webkit-box-shadow: -4px 8px 6px 2px rgba(222,215,215,0.75);
+    -moz-box-shadow: -4px 8px 6px 2px rgba(222,215,215,0.75);
+        padding: 10px;
+}
+
+.lockReg{
+    text-align: center;
+    color: rgb(70, 70, 251);
+    position:absolute;
+    top: 0;
+    left: 5;
+}
+
+.lockReg .lock {
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    background-color: rgb(70, 70, 251);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.lockReg .lockIcon {
+    color: white;
+    padding: 5px;
+}
+.lockReg .lockIcon:hover{
+    font-size: 30px;
+
+}
+
+
+.btnRegistration{
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: rgb(70, 70, 251);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.btnRegistration:hover {
+    background-color: rgb(88, 88, 255);
+}
+.arrowBack{
+    position: absolute;
+    top: 0;
+    left: 2;
+    font-size: 15px;
+    
+    /* margin-left: 20px; */
+}
+
+
+
+
+@media(max-width:500px){
+    .container{
+        width: 300px;
+        height: 450px;
+        
+    }
+}
